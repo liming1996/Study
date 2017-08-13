@@ -1,0 +1,28 @@
+ * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-content {
+        height: 150px;
+        width: 100%;
+        background-color: red;
+    }
+
+    .one-content {
+        float: left;
+        height: 450px;
+        width: 20%;
+        background-color: blue;
+    }
+
+    .two-content {
+        background-color:violet;
+        height: 300px;
+        width: 100%;
+    }
+    .three-content{
+        height: 150px;
+        width: 100%;
+        background-color: chartreuse;
+    }

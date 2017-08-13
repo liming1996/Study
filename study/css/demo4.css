@@ -1,0 +1,121 @@
+* {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    /*第一屏*/
+
+    .one {
+        height: 50px;
+        text-align: right;
+        margin-right: 10%;
+    }
+
+    .one a {
+        position: relative;
+        top: 15px;
+        color: black;
+    }
+
+    .middle-content {
+        height: 100px;
+        text-align: right;
+    }
+
+    .middle-content a {
+        margin-right: 8%;
+        color: red;
+    }
+
+    .middle-content a:hover {
+        color: mediumorchid;
+    }
+
+    .right-content {
+        height: 480px;
+        text-align: center;
+        background-color: aquamarine;
+    }
+
+    .bottom {
+        position: relative;
+        top: 10%;
+        font-size: 50px;
+    }
+
+    .button {
+
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .button>button {
+        border: 1px solid aquamarine;
+        padding: 10px;
+        opacity: 0.5;
+        background-color: aquamarine
+    }
+
+    .button>button:hover {
+        background-color: deeppink;
+    }
+    /*第二屏*/
+
+    .two-top-content {
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        position: relative;
+        top: 40px;
+    }
+
+    .two-left-content {
+        float: left;
+        margin-top: 58px;
+        height: 530px;
+        width: 50%;
+        background-color: seashell;
+    }
+
+    .up-top {
+        float: right;
+        height: 265px;
+        width: 50%;
+        background-color: silver;
+        margin-top: 58px;
+    }
+
+    .up-one {
+        float: left;
+        height: 265px;
+        width: 50%;
+        background-color: salmon;
+    }
+
+    .up-two {
+        float: right;
+        height: 265px;
+        width: 50%;
+        background-color: brown;
+    }
+
+    .down-bottom {
+        float: right;
+        height: 265px;
+        width: 50%;
+        background-color: chartreuse;
+    }
+
+    .down-three {
+        float: left;
+        height: 265px;
+        width: 50%;
+        background-color: seagreen;
+    }
+
+    .down-four {
+        float: right;
+        height: 265px;
+        width: 50%;
+        background-color: palevioletred;
+    }

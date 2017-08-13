@@ -1,0 +1,22 @@
+* {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    html,body,form{
+        height: 100%;
+        width: 100%;
+    }
+    p.fantasy{
+        font-family: fantasy;
+    }
+    p.cursive{
+        font-family:cursive;
+        font-size: 10px;
+        font-style: italic;
+        /*字体，字体大小，斜体*/
+    }
+    p.-webkit-pictograph{
+        font-family: -webkit-pictograph;
+    }

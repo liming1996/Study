@@ -1,0 +1,24 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    html,body,form{
+        height: 100%;
+        width: 100%;
+    }
+    .conten{
+        width: 60%;
+        height: 60%;
+        position:relative;
+        left: 15%;
+        top: 15%;
+        text-align: center;
+    }
+    input{
+        height: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
