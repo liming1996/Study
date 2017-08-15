@@ -1,0 +1,28 @@
+* {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    html,body,form{
+        height: 100%;
+        width: 100%;
+    }
+    .span{
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    span{
+    position: relative;
+    left: 45%;
+    top: 40%;
+    border: 35px solid;
+    padding: 143px;
+    border-radius: 143px 0 0 0;
+    border-color: red white white red;
+    border-left: 0px;
+    border-top-width: 70px;
+    }

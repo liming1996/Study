@@ -1,0 +1,20 @@
+* {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    html,body,form{
+        height: 100%;
+        width: 100%;
+    }
+    .span{
+        height: 0px;
+        width: 0px;
+        border: 110px solid;
+        padding: 0px;
+        position: relative;
+        left: 45%;
+        top: 10%;
+        border-color: white white red white;
+    }
