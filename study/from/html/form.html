@@ -1,37 +1,52 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>输入框</title>
+    <title>input的形态</title>
     <link rel="stylesheet" href="">
 </head>
 
 <body>
     <div class="conten">
         用户名：
-        <input type="text"><br/> 
-        密&nbsp&nbsp&nbsp码：
+        <input type="text" name="name" value="手机号或邮箱" size="20"><br/>
+         密&nbsp&nbsp&nbsp码：
         <input type="password"><br>
         <input type="radio" checked="checked" name="sex" value="male">男
-        <input type="radio" name="sex" value="female">女<br/>
-        <input type="checkbox" name="vehcle" value="">篮球
-        <input type="checkboX" name="vehcle" value="">乒乓球
-        <input type="checkboX" name="vehcle" value="">羽毛球
-        <input type="checkboX" name="vehcle" value="">足球<br/> 
-        选择日期：
-        <input type="date">
+        <input type="radio" name="sex" value="female">女<br/> 
         选择时间：
-        <input type="time"><br/> 
-        数字输入：
-        <input type="number"><br/> 
+        <input type="time"><br/>
         邮箱地址：
-        <input type="email"><br/> 
-        输入字段和浏览按钮：
-        <input type="file"><br/> 
+        <input type="text" name="mail" value="yourmail" size="20"><br/>
+        隐藏输入字段：
+        <input type="hedden" name="county"><br/> 
+        <!--输入字段和浏览按钮-->
+        <input type="file"><br/>
+        <!--电话号码--> 
+        <input type="tel" value=""><br/>
+        数字输入字段：
+        <input type="number" maxlength="11"><br/>
         颜色选择器：
-        <input type="color"><br/> 
-        搜索框：
-        <input type="search"><br/>
-        <input type="submit"><!--提交-->
-        <input type="reset"><!--重置-->
+        <input type="color" value="颜色选择器"><br/>
+         搜索框：
+        <input type="search" value="搜索"><br/>
+        下拉列表：
+        <select name="cars">
+           <option value="水果">水果</option>
+           <option value="Peach">桃子</option>
+           <option value="Pear" selected="selected">梨</option>
+           <option value="Apple">苹果</option>
+        </select><br/>
+        <input type="submit" value="发送">
+        <input type="submit" value="提交">
+        <!--提交-->
+        <input type="reset" value="重置">
+        <!--重置-->
     </div>
+    <form action="form_action.asp" method="get">
+             <p><input type="text" name="name" value="手机号或邮箱" size="20"><br/></p>
+             <p><input type="password" ><br></p>
+      <input type="submit">
+    </form>
 </body>
+</html>
